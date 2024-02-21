@@ -47,6 +47,7 @@ function App() {
             onChange={handleChange}
             value={contact.fName}
           />
+          <div>{contact.fName}</div>
         </div>
           <div className='my-2'>
           <label className='mx-4' htmlFor='email'>Email</label>
@@ -60,6 +61,7 @@ function App() {
             onChange={handleChange}
             value={contact.email}
           />
+             <div>{contact.email}</div>
         </div>
         <div className='my-2'>
           <label className='mx-4' htmlFor='pass'>Password</label>
@@ -73,6 +75,7 @@ function App() {
             onChange={handleChange}
             value={contact.pass}
           />
+          <div>{contact.pass}</div>
         </div>
           <div className='my-2'>
           <label className='mx-4' htmlFor='clr'>Select Color</label>
@@ -84,6 +87,7 @@ function App() {
             onChange={handleChange}
             value={contact.clr}
           />
+          <div>{contact.clr}</div>
         </div>
           <div className='my-2'>
           <label className='mx-4' htmlFor='address'>Enter Address</label>
@@ -97,6 +101,7 @@ function App() {
             onChange={handleChange}
             value={contact.address}
           />
+          <div>{contact.address}</div>
         </div>
           <div className='my-2'>
           <label className='mx-4' htmlFor='city'>City</label>
@@ -110,6 +115,7 @@ function App() {
             onChange={handleChange}
             value={contact.city}
           />
+          <div>{contact.city}</div>
         </div>
         <div className='my-2'>
           <label className='mx-4' htmlFor='gender'>Gender</label>
@@ -132,6 +138,7 @@ function App() {
             onChange={handleChange}
             value={contact.pincode}
           />
+          <div>{contact.pincode}</div>
         </div>
         <div className='my-2'>
           <input type='checkbox' id='terms' name='terms' required
